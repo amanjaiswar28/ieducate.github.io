@@ -71,6 +71,7 @@ html{
     background: rgba(0, 0, 0, 0.7) url('../img/bg.jpeg');
     background-size:cover;
     background-blend-mode: darken;
+    background-attachment: fixed;
     
 }
 
@@ -225,6 +226,17 @@ html{
     height: 4px;
     margin: 3px 3px;;
 }
+#msg{
+    color: black;
+   
+    display: block;
+}
+#msg{
+    color: black;
+    margin-top:-2px;
+    display: block;
+}
+
 @media only screen and (max-width: 1200px){
     .nav-list{
         flex-direction: column;
