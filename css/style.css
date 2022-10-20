@@ -236,7 +236,12 @@ html{
     margin-top:-2px;
     display: block;
 }
-
+.map iframe {
+    width: 100%;
+  }
+.top {
+    margin-top: 10%;
+  }
 @media only screen and (max-width: 1200px){
     .nav-list{
         flex-direction: column;
